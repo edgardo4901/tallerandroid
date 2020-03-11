@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="tamano_texto">17sp</dimen>
+    <dimen name="tamano_textochico">15sp</dimen>
+    <dimen name="tamano_textogrande">25sp</dimen>
+    <dimen name="margen_izquierdo">10dp</dimen>
+    <dimen name="margen_derecho">10dp</dimen>
+    <dimen name="margen_arriba">10dp</dimen>
+    <dimen name="margen_abajo">10dp</dimen>
+    <dimen name="margen_default">10dp</dimen>
+    <dimen name="largo_cajatexto">50dp</dimen>
+    <dimen name="largo_boton">50dp</dimen>
+    <dimen name="corner_radius">5dp</dimen>
+    <dimen name="largo_confirmareliminar">250dp</dimen>
+    <dimen name="largo_contenidoeliminar">100dp</dimen>
+    <dimen name="largo_confirmarguardar">250dp</dimen>
+    <dimen name="largo_contenidoguardar">120dp</dimen>
+    <dimen name="largo_abajo">80dp</dimen>
+    <dimen name="padding_default">30dp</dimen>
+</resources>

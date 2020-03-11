@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/svPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/colorFondoApp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/tamano_textogrande"
+                android:text="@string/app_name"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                style="@style/textoAzulOscuro"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/margen_izquierdo"
+            android:layout_marginRight="@dimen/margen_derecho"
+            android:layout_marginTop="@dimen/margen_arriba">
+
+            <TextView
+                android:id="@+id/txtUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtempresa"
+                android:layout_alignLeft="@+id/txtTextoNivel"
+                android:text="@string/str_correo"
+                style="@style/texto"/>
+
+            <EditText
+                android:id="@+id/edt_Usuario"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/txtExtencion"
+                android:inputType="text"
+                style="@style/cajatexto"/>
+
+            <TextView
+                android:id="@+id/txtContraseña"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_contraseña"
+                style="@style/texto"/>
+
+            <EditText
+                android:id="@+id/edt_Contraseña"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/txtExtencion"
+                android:inputType="textPassword"
+                style="@style/cajatexto"/>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margen_izquierdo"
+            android:layout_marginRight="@dimen/margen_derecho"
+            android:layout_marginTop="@dimen/margen_arriba">
+            <Button
+                android:id="@+id/btn_Inicio"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:text="@string/str_botonIniciar"
+                style="@style/botonazul"/>
+        </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/viewload"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

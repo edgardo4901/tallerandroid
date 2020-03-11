@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="textoAzulOscuro">
+        <item name="android:textColor">@color/colorAzulOscuro</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">@dimen/tamano_texto</item>
+        <item name="android:fontFamily">@font/circularstdmedium</item>
+    </style>
+    <style name="texto">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">@dimen/tamano_textochico</item>
+        <item name="android:fontFamily">@font/circularstdmedium</item>
+    </style>
+    <style name="cajatexto">
+        <item name="android:layout_height">@dimen/largo_cajatexto</item>
+        <item name="android:textColor">@color/colorAzulOscuro</item>
+        <item name="android:fontFamily">@font/circularstdmedium</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="botonazul">
+        <item name="android:background">@drawable/boton_redondobg</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/tamano_texto</item>
+        <item name="android:layout_height">@dimen/largo_boton</item>
+        <item name="android:fontFamily">@font/circularstdmedium</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="MyToolbarTheme" parent="@style/ThemeOverlay.AppCompat">
+        <item name="colorControlNormal">@color/colorAzulOscuro</item>
+        <item name="titleTextColor">@color/colorAzulOscuro</item>
+    </style>
+    <style name="textoAzulTitulo">
+        <item name="android:textColor">@color/colorAzulOscuro</item>
+        <item name="android:textSize">@dimen/tamano_texto</item>
+        <item name="android:fontFamily">@font/circularstdbold</item>
+    </style>
+</resources>

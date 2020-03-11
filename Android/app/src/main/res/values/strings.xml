@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProyectoTalleresAndroid</string>
+    <string name="action_cerrarsesion">Cerrar Sesion</string>
+    <string name="str_correo">Correo</string>
+    <string name="str_contraseña">Contraseña</string>
+    <string name="str_botonIniciar">Iniciar</string>
+    <string name="str_camposloginvacios">Favor de ingresar tu usuario y contraseña</string>
+    <string name="str_errorgeneral">Error de conexión favor de intentar nuevamente</string>
+    <string name="titulo_splash">Proyecto</string>
+    <string name="subtitulo_splash">TalleresAndroid</string>
+    <string name="str_aceptar">Aceptar</string>
+    <string name="str_cancelar">Cancelar</string>
+    <string name="str_tituloeliminar">Seguro que deseas eliminar?</string>
+    <string name="str_nombre">Nombre</string>
+    <string name="str_numero">Numero</string>
+    <string name="msg_completarcamposguardado">Favor de ingresar todos los campos para guardar</string>
+</resources>
